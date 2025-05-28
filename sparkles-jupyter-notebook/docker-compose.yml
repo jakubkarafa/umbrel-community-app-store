@@ -1,13 +1,19 @@
 version: "3.7"
 
 services:
+
+  app_proxy:
+    environment:
+      APP_HOST: sparkles-jupyter-notebook_jupyter_1
+      APP_PORT: 8888
+
   jupyter:
     image: jupyter/base-notebook:latest
+    user: "1000:1000"
+    init: true
     restart: unless-stopped
     environment:
       - JUPYTER_TOKEN=umbrel
-    ports:
-      - "8888:8888"
     volumes:
       - jupyter-data:/home/jovyan/work
 
