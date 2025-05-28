@@ -13,7 +13,9 @@ services:
     init: true
     restart: unless-stopped
     environment:
-      - JUPYTER_TOKEN=umbrel
+      - JUPYTER_TOKEN=
+      - JUPYTER_PASSWORD=
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
     volumes:
       - jupyter-data:/home/jovyan/work
 
