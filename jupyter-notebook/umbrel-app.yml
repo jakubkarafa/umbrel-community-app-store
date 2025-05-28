@@ -1,0 +1,18 @@
+id: jupyter-notebook
+name: Jupyter Notebook
+version: "1.0.0"
+releaseNotes: Initial release of Jupyter Notebook for Umbrel.
+icon: https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/umbrel-community-app-store/main/apps/jupyter-notebook/icon.svg
+description: >
+  Run Python notebooks in your browser using Jupyter, right from Umbrel.
+developer:
+  name: Your Name
+  email: your@email.com
+  website: https://your-website.com
+  github: https://github.com/YOUR_GITHUB_USERNAME
+dependencies: []
+repo: https://github.com/YOUR_GITHUB_USERNAME/umbrel-community-app-store
+support: https://github.com/YOUR_GITHUB_USERNAME/umbrel-community-app-store/issues
+license: MIT
+gallery: []
+port: 8888
