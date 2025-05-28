@@ -1,18 +1,19 @@
 id: sparkles-jupyter-notebook
 name: Jupyter Notebook
 version: "1.0.0"
-releaseNotes: Initial release of Jupyter Notebook for Umbrel.
-icon: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
+releaseNotes: >
+  Initial release of Jupyter Notebook on Umbrel.
+icon: ./icon.svg
 description: >
-  Run Python notebooks in your browser using Jupyter, right from Umbrel.
+  Run Python code interactively via a web-based Jupyter Notebook interface.
 developer:
-  name: Your Name
+  name: Jakub Karafa
   email: your@email.com
-  website: https://your-website.com
-  github: https://github.com/YOUR_GITHUB_USERNAME
+  website: https://karafa.eu
+  github: https://github.com/jakubkarafa
 dependencies: []
-repo: https://github.com/YOUR_GITHUB_USERNAME/umbrel-community-app-store
-support: https://github.com/YOUR_GITHUB_USERNAME/umbrel-community-app-store/issues
+repo: https://github.com/jakubkarafa/umbrel-community-app-store
+support: https://github.com/jakubkarafa/umbrel-community-app-store/issues
 license: MIT
 gallery: []
 port: 8888
