@@ -2,7 +2,7 @@ id: jupyter-notebook
 name: Jupyter Notebook
 version: "1.0.0"
 releaseNotes: Initial release of Jupyter Notebook for Umbrel.
-icon: https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/umbrel-community-app-store/main/apps/jupyter-notebook/icon.svg
+icon: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
 description: >
   Run Python notebooks in your browser using Jupyter, right from Umbrel.
 developer:
