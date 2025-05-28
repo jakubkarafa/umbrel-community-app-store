@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: sparkles-jupyter-notebook
+id: jakubkarafa-jupyter-notebook
 name: Jupyter Notebook
 tagline: Interactive Python in your browser
 icon: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
@@ -19,7 +19,7 @@ submission: https://github.com/jakubkarafa/umbrel-community-app-store
 repo: https://github.com/jakubkarafa/umbrel-community-app-store
 support: https://github.com/jakubkarafa/umbrel-community-app-store/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://upload.wikimedia.org/wikipedia/commons/d/d0/Jupyter_Notebook.png
 releaseNotes: >-
   Initial release of Jupyter Notebook on Umbrel.
 dependencies: []
