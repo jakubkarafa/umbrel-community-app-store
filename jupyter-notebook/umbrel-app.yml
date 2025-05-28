@@ -1,4 +1,4 @@
-id: jupyter-notebook
+id: sparkles-jupyter-notebook
 name: Jupyter Notebook
 version: "1.0.0"
 releaseNotes: Initial release of Jupyter Notebook for Umbrel.
