@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: jakubkarafa-jupyter-lab_jupyter_1
+      APP_PORT: 8888
+
+  jupyter:
+    image: jupyter/datascience-notebook:latest
+    user: "1000:1000"
+    init: true
+    restart: unless-stopped
+    environment:
+      - JUPYTER_TOKEN=
+    command: start.sh jupyter lab --LabApp.token='' --LabApp.password=''
+    volumes:
+      - jupyter-lab-data:/home/jovyan/work
+
+volumes:
+  jupyter-lab-data:
