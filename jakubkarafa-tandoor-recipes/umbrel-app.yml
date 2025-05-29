@@ -17,8 +17,7 @@ submission: https://github.com/jakubkarafa/umbrel-community-app-store
 repo: https://github.com/TandoorRecipes/recipes
 support: https://github.com/TandoorRecipes/recipes/discussions
 gallery:
-  - https://tandoor.dev/assets/img/screenshots/overview.webp
-  - https://tandoor.dev/assets/img/screenshots/mealplan.webp
+  - https://raw.githubusercontent.com/TandoorRecipes/recipes/refs/heads/develop/docs/preview.png
 releaseNotes: >-
   Initial release of Tandoor Recipes on Umbrel. Track your meals and nutrition effortlessly.
 dependencies: []
