@@ -1,18 +1,16 @@
 version: "3.7"
 
 services:
+
+  app_proxy:
+    environment:
+      APP_HOST: jakubkarafa-tandoor-recipes_web_1
+      APP_PORT: 8080
+
   web:
     image: vabene1111/recipes:latest
-    container_name: tandoor
+    container_name: tandoor_web
     restart: unless-stopped
-    ports:
-      - "8080:8080"
-    volumes:
-      - tandoor_static:/opt/recipes/staticfiles
-      - tandoor_media:/opt/recipes/mediafiles
-      - tandoor_db:/var/lib/postgresql/data
-    depends_on:
-      - db
     environment:
       - SECRET_KEY=super-secret-key
       - DB_ENGINE=django.db.backends.postgresql
@@ -21,19 +19,24 @@ services:
       - POSTGRES_USER=tandoor
       - POSTGRES_PASSWORD=tandoorpass
       - POSTGRES_DB=tandoor
+    volumes:
+      - tandoor-static:/opt/recipes/staticfiles
+      - tandoor-media:/opt/recipes/mediafiles
+    depends_on:
+      - db
 
   db:
     image: postgres:13
-    container_name: tandoor_postgres
+    container_name: tandoor_db
     restart: unless-stopped
-    volumes:
-      - tandoor_db:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=tandoor
       - POSTGRES_PASSWORD=tandoorpass
       - POSTGRES_DB=tandoor
+    volumes:
+      - tandoor-db:/var/lib/postgresql/data
 
 volumes:
-  tandoor_static:
-  tandoor_media:
-  tandoor_db:
+  tandoor-static:
+  tandoor-media:
+  tandoor-db:
