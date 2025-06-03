@@ -1,4 +1,4 @@
-# Jakub's Umbrel App Store
+# Jakub Karafa's Umbrel App Store
 
 This is my personal Umbrel App Store containing tested and working apps that are not part of the [Official Umbrel App Store](https://github.com/getumbrel/umbrel-apps). These apps are packaged to run inside Umbrel OS using Docker.
 
