@@ -4,12 +4,11 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: tandoor_web
+      APP_HOST: jakubkarafa-tandoor-recipes_web_1
       APP_PORT: 8080
 
   web:
     image: vabene1111/recipes:latest
-    container_name: tandoor_web
     restart: unless-stopped
     environment:
       - SECRET_KEY=super-secret-key
@@ -27,7 +26,6 @@ services:
 
   db:
     image: postgres:13
-    container_name: tandoor_db
     restart: unless-stopped
     environment:
       - POSTGRES_USER=tandoor
