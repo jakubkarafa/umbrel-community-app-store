@@ -3,16 +3,15 @@ id: jakubkarafa-tandoor-recipes
 name: Tandoor Recipes
 tagline: Cook, plan, and track nutrition
 icon: https://raw.githubusercontent.com/TandoorRecipes/recipes/refs/heads/develop/docs/logo_color.svg
-category: Productivity
+category: productivity
 version: "1.0.0"
 port: 8080
 description: >-
   Self-hosted recipe and meal planner with built-in nutrition tracking.
   Organize meals, create shopping lists, and track protein, calories, and more.
-
 developer: vabene1111
 website: https://tandoor.dev
-submitter: Jakub Karafa
+submitter: jakubkarafa
 submission: https://github.com/jakubkarafa/umbrel-community-app-store
 repo: https://github.com/TandoorRecipes/recipes
 support: https://github.com/TandoorRecipes/recipes/discussions
