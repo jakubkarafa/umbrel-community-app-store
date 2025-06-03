@@ -2,7 +2,7 @@ manifestVersion: 1
 id: jakubkarafa-tandoor-recipes
 name: Tandoor Recipes
 tagline: Cook, plan, and track nutrition
-icon: https://raw.githubusercontent.com/TandoorRecipes/recipes/refs/heads/develop/docs/logo_color.svg
+icon: https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/master/jakubkarafa-tandoor-recipes/media/icon.svg?raw=true
 category: productivity
 version: "1.0.0"
 port: 8080
@@ -16,7 +16,7 @@ submission: https://github.com/jakubkarafa/umbrel-community-app-store
 repo: https://github.com/TandoorRecipes/recipes
 support: https://github.com/TandoorRecipes/recipes/discussions
 gallery:
-  - https://raw.githubusercontent.com/TandoorRecipes/recipes/refs/heads/develop/docs/preview.png
+  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/master/jakubkarafa-tandoor-recipes/media/1.png?raw=true
 releaseNotes: >-
   Initial release of Tandoor Recipes on Umbrel. Track your meals and nutrition effortlessly.
 dependencies: []
