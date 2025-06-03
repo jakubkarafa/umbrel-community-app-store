@@ -7,14 +7,20 @@ This is my personal Umbrel App Store containing tested and working apps that are
 ## 🚀 How to Use
 
 1. Open the Umbrel dashboard in your browser.
-2. Go to the **App Store** tab.
-3. Click **"Add Store"** and paste this URL:
+2. Go to the **App Store**.
+3. Click the **three dots** in the top right corner of the App Store.
+4. Select **"Community App Stores"**.
+5. Paste this URL into the input field:
 
    ```
    https://github.com/jakubkarafa/umbrel-community-app-store
    ```
 
-> 📌 Note: Apps from this store will appear in a separate view. After adding the store, click the “Open” button next to it to browse the apps.
+6. Click **"Add"**.
+7. After the store is added, click the **“Open” button** next to it to browse the apps.
+
+> 📌 **Note:** Apps from this store appear in a separate view and do **not** show up in the main App Store list.  
+> To access this store later, repeat the steps: go to the **App Store**, click the **three dots**, go to **Community App Stores**, then click **“Open”** next to this store.
 
 ---
 
