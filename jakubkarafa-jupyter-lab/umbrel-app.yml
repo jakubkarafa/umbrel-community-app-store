@@ -3,19 +3,18 @@ id: jakubkarafa-jupyter-lab
 name: JupyterLab
 tagline: Next-generation notebook interface
 icon: https://jupyterlab.readthedocs.io/en/latest/_static/logo-rectangle.svg
-category: Development
+category: development
 version: "1.0.0"
 port: 8888
 description: >-
   A powerful web-based IDE for interactive computing with notebooks,
   terminals, files, and code consoles — right inside Umbrel.
-
-developer: Jakub Karafa
-website: https://karafa.eu
-submitter: Jakub Karafa
+developer: Project Jupyter
+website: https://jupyter.org/
+submitter: jakubkarafa
 submission: https://github.com/jakubkarafa/umbrel-community-app-store
-repo: https://github.com/jakubkarafa/umbrel-community-app-store
-support: https://github.com/jakubkarafa/umbrel-community-app-store/issues
+repo: https://github.com/jupyterlab/jupyterlab
+support: https://discourse.jupyter.org/c/jupyterlab/17
 gallery:
   - https://jupyterlab.readthedocs.io/en/latest/_images/jupyterlab.png
 releaseNotes: >-
