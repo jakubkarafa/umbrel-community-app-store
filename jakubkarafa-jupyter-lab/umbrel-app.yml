@@ -2,7 +2,7 @@ manifestVersion: 1
 id: jakubkarafa-jupyter-lab
 name: JupyterLab
 tagline: Next-generation notebook interface
-icon: https://jupyterlab.readthedocs.io/en/latest/_static/logo-rectangle.svg
+icon: https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/master/jakubkarafa-jupyter-lab/media/icon.svg?raw=true
 category: development
 version: "1.0.0"
 port: 8888
@@ -16,10 +16,9 @@ submission: https://github.com/jakubkarafa/umbrel-community-app-store
 repo: https://github.com/jupyterlab/jupyterlab
 support: https://discourse.jupyter.org/c/jupyterlab/17
 gallery:
-  - https://jupyterlab.readthedocs.io/en/latest/_images/jupyterlab.png
-  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/main/jakubkarafa-jupyter-lab/media/1.png
-  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/main/jakubkarafa-jupyter-lab/media/2.png
-  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/main/jakubkarafa-jupyter-lab/media/3.png
+  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/master/jakubkarafa-jupyter-lab/media/1.png?raw=true
+  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/master/jakubkarafa-jupyter-lab/media/2.png?raw=true
+  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/refs/heads/master/jakubkarafa-jupyter-lab/media/3.png?raw=true
 releaseNotes: >-
   Initial JupyterLab release for Umbrel.
 dependencies: []
