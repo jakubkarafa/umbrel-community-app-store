@@ -17,9 +17,9 @@ repo: https://github.com/jupyterlab/jupyterlab
 support: https://discourse.jupyter.org/c/jupyterlab/17
 gallery:
   - https://jupyterlab.readthedocs.io/en/latest/_images/jupyterlab.png
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/main/jakubkarafa-jupyter-lab/media/1.png
+  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/main/jakubkarafa-jupyter-lab/media/2.png
+  - https://raw.githubusercontent.com/jakubkarafa/umbrel-community-app-store/main/jakubkarafa-jupyter-lab/media/3.png
 releaseNotes: >-
   Initial JupyterLab release for Umbrel.
 dependencies: []
